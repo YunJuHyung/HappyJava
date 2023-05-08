@@ -1,4 +1,4 @@
-package day01;
+package src01;
 
 public class VendingMachine {
     public String pushProductButton(int menuId){

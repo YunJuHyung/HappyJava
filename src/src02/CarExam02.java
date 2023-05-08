@@ -1,4 +1,4 @@
-package day02;
+package src02;
 
 
 //cmd + click = 내부적으로 어떻게 구현되어 있는지 알수있다.
@@ -6,7 +6,10 @@ public class CarExam02 {
     public static void main(String[] args) {
         Car c1 = new Car();
         System.out.println(c1); //println(object any) - object로 참조할 수 있는건 뭐든지 올 수 있다.
-
+        c1.printname();
+        System.out.println("----------------");
+        Car c2 = new Car("urstory");
+        c2.printname();
 
 //        Object o1 = new Car;
 //        Object o1 = new BUS;

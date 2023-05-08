@@ -1,4 +1,4 @@
-package day02;
+package src02;
 
 public class SuperCar extends Car{
 

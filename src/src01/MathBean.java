@@ -1,4 +1,4 @@
-package day01;
+package src01;
 
 public class MathBean {
     public void printClassName(){

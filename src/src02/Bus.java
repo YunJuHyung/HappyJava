@@ -1,4 +1,4 @@
-package day02;
+package src02;
 //버스는 자동차의 한 종류다.
 public class Bus extends Car{
     public void run() {

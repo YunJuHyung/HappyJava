@@ -1,4 +1,4 @@
-package day03;
+package src03;
 
 public class Book {
     private String Title;

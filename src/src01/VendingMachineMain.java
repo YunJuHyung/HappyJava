@@ -1,4 +1,4 @@
-package day01;
+package src01;
 
 public class VendingMachineMain{
     public static void main(String[] args) {
