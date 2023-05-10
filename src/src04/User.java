@@ -16,10 +16,10 @@ public class User {
         this.password = password;
     }
 
-    public String getEmail() {
+    public String getEmail() {      //getter 메소드만 가지고있으면 불변 객체
         return email;
-    }
-
+    }       //겟터메소드만 가지고 있으면 불변객체 String이 가지고 있는
+                                                    //모든 값은 내부 값을 변경시키지 않는다.
     public String getPassword() {
         return password;
     }
