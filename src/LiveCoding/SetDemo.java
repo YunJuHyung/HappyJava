@@ -1,11 +1,14 @@
 package LiveCoding;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.HashSet;
 
 public class SetDemo {
     public static void main(String[] args) {
-        HashSet<Integer> A = new HashSet<>();
+        //COllection은 Set이나 List를 구현하고있고 iterator를 공통적으로 구현하기때문에 사용이 가능하다.
+        Collection<Integer> A = new HashSet<>();
         A.add(1);
         A.add(2);
         A.add(3);
